@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #f9e0ae;
+  font-size: 1.2rem;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #16697a;
+}
+
+nav a:hover {
+  color: #db6400;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+#about,
+#projects,
+#contact h2 {
+  text-align: center;
+}
+
+input,
+textarea {
+  color: #f8f1f1;
+  background-color: #132743;
+  font-size: 1.5rem;
+  display: block;
+  margin-bottom: 5px;
+  outline: none;
+  width: 100%;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.profile-img {
+  width: 300px;
+}
+
+img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #16697a;
+}
+
+.hero button {
+  padding: 10px;
+  font-size: 2rem;
+}
+/* This is the home section  */
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f1f1;
+  height: 100vh;
+  text-align: center;
+  margin: auto 0;
+}
+.identity {
+  color: #db6400;
+}
+
+button a {
+  text-decoration: none;
+  color: #db6400;
+}
+
+button {
+  background-color: #f8f1f1;
+  outline: 1px solid #db6400;
+}
+
+/* This is the about sections */
+#about {
+  height: 60vh;
+}
+
+#about h2,
+h3,
+i {
+  color: #16697a;
+}
+
+.about-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hire-me {
+  font-size: 1.5rem;
+  color: #db6400;
+}
+
+.skills {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+/* This is the projects sections where your portfolios are displayed */
+#projects {
+  background-color: #f9e0ae;
+  height: 50vh;
+}
+
+/* This sections is the contact section  */
+#contact {
+  background-color: #407088;
+  height: 60vh;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-top: 0;
+  color: #f8f1f1;
+}
+
+#contact p {
+  color: #f8f1f1;
+}
+
+.input-field {
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-btn {
+  background-color: #132743;
+  padding: 7px;
+  text-transform: uppercase;
+  outline: 1px solid #f8f1f1;
+  color: #f8f1f1;
+}
+
+/* This is the fofoter section  */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 15px 20px;
+  background-color: #132743;
+  height: 10vh;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.links {
+  width: 150px;
+  padding: 15px;
+}
