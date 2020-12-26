@@ -1,5 +1,7 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .sticky {
@@ -34,9 +36,26 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
+h2 {
+  font-size: 2rem;
+  position: relative;
+  margin: 10px 0 15px 0;
+  padding: 15px 0;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 7.5px;
+  background-color: #f8f1f1;
+  left: 900px;
+}
+
 #about,
 #projects,
-#contact h2 {
+#contact {
   text-align: center;
 }
 
@@ -57,9 +76,11 @@ p {
 }
 .profile-img {
   width: 300px;
+
+  margin: 10px auto;
 }
 
-img {
+.profile-img img {
   width: 100%;
   border-radius: 100%;
 }
@@ -91,16 +112,34 @@ img {
 button a {
   text-decoration: none;
   color: #db6400;
+
+  box-shadow: none;
 }
 
 button {
-  background-color: #f8f1f1;
-  outline: 1px solid #db6400;
+  outline: 3px solid #db6400;
+  margin-top: 10px;
 }
 
 /* This is the about sections */
 #about {
+  width: 70%;
   height: 60vh;
+  margin: 0 auto;
+}
+
+.skills-header {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.skills {
+  padding: 7.5px 10px;
+}
+
+.skills p,
+.skills i {
+  font-size: 1.3rem;
 }
 
 #about h2,
@@ -111,23 +150,39 @@ i {
 
 .about-flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .hire-me {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #db6400;
 }
 
-.skills {
-  padding: 5px 10px;
-  margin-bottom: 5px;
+.skills-container {
+  width: 70%;
 }
 
 /* This is the projects sections where your portfolios are displayed */
 #projects {
   background-color: #f9e0ae;
   height: 50vh;
+  color: #16697a;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+}
+
+.project-img {
+  max-width: 400px;
+
+  background-color: #16697a;
+  margin: 15px 10px;
+}
+
+.project-img img {
+  width: 100%;
 }
 
 /* This sections is the contact section  */

@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -32,6 +33,7 @@
       <!-- This is the about section  -->
     <section id="about">
         <h2 >ABOUT</h2>
+        
         <div class="about-flex">
             <div>
                 <div class="profile-img"><img src="profile.jpg" alt="profile-img"></div>
@@ -40,8 +42,8 @@
                 <a  class= "hire-me" href="http://">How about we get to work </a>
             </div>
     
-            <div>
-                <h3>Skills </h3>
+            <div class="skills-container">
+                <h3 class="skills-header">Skills </h3>
                 <div  class="skills"> <p>HTML</p> <i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></div>
                 <div class="skills"><p>CSS</p><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></div>
                 <div class="skills"><p>JavaScript</p><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i><i class="material-icons">grade</i></div>
@@ -57,10 +59,19 @@
     <section id="projects">
         <h2>PROJECTS</h2>
         
-        <p>Project Title</p>
-        <img src="" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue viverra finibus. In mi nunc, porta at risus ut, luctus sollicitudin risus. Suspendisse nec eros massa. Morbi consectetur purus at orci consequat dignissim. Curabitur tincidunt est ut tristique faucibus. Maecenas tempus maximus mattis. Morbi congue, nisi feugiat aliquam lobortis, massa eros tristique tortor, a maximus mi quam id ipsum. Duis semper eu eros ut molestie. Aenean lacinia facilisis sagittis. Proin sed pharetra sapien. Fusce cursus, massa at rhoncus gravida, felis augue rutrum mi, vel fermentum dui dui quis sem. Sed nibh mauris, imperdiet vitae rutrum in, accumsan eget arcu. Vivamus ut risus molestie, aliquam arcu ut, sollicitudin nibh. Proin egestas ultricies erat a suscipit. Duis vel justo finibus, placerat magna in, euismod diam.</p>
-
+        <nav class="nav-projects">
+            <a href="http://">REACT</a>
+            <a href="http://">VanillaJS</a>
+        </nav>
+        <div class="project-container">
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aHRtbHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="react app">
+            </div>
+            <div class="project-img">
+                <img src="https://images.unsplash.com/photo-1515524738708-327f6b0037a7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGh0bWx8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="react app">
+            </div>
+        </div>
+        
 
     </section>
     <!-- In this section, you should put up your projects -->
@@ -85,9 +96,9 @@
     </section>
     <footer>
       
-        <a href="http://" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Github</a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="http://" target="_blank" rel="noopener noreferrer"><i class="material-icons">facebook</i></a>
+        <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
+        <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
     </footer>
 
     
